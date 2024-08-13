@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   zookeeper:
-    image: confluentinc/cp-zookeeper:7.4.8
+    image: confluentinc/cp-zookeeper:7.4.0
     hostname: zookeeper
     container_name: zookeeper
     ports:
@@ -79,7 +79,7 @@ services:
     ports:
       - 5601:5601
 
-      
+
 
 
       
